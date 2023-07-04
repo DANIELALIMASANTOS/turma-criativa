@@ -1,4 +1,30 @@
-header{
-    background-color: rgb(97, 97, 161);
-    color: white;
+/*SELETOR UNIVERSAL*/
+*{margin:0px;
+ padding:0px;}
+
+/*CORPO DA PÁGINA*/
+body{
+ font-family:sans-serif;}
+
+ /*SECÇÃ0 CABEÇALHO*/
+
+.cabecalho{
+ background-color:rgba(6,19,95,0.705);
+ display:flex;
+ 
+ padding:30px;
+font-size:24px;
+justify-content:space-around;
 }
+
+.cabecalho-imagem{
+ width:150px;
+ height:150px;
+}
+.cabecalho-item{
+ display:inline-block;
+ padding:0 100px;
+}
+
+    
+
